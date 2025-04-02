@@ -2,34 +2,34 @@
 
 * {
 
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-color: #ffffff;
-font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: "Ubuntu", sans-serif;
 
 }
 
 body {
 
     background-color: black;
-    
+
 }
 
 .cabecalho {
 
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 25px 80px;
-height: 70px;
-font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 80px;
+    height: 70px;
+    font-size: 1.2em;
 
 }
 
 a {
 
-text-decoration: none;
+    text-decoration: none;
 
 }
 
@@ -38,29 +38,29 @@ nav {
     display: flex;
     justify-content: space-between;
     gap: 25px;
-    
+
 }
 
 .banner {
 
-background-image: url(../assets/imgs/Banner-BB.png);
-background-repeat: no-repeat;
-background-size: cover;
-height: 700px;
+    background-image: url(../assets/imgs/Banner-BB.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
 
-display: flex;
-align-items: center;
-padding: 0 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
 
 }
 
 
 .div-banner {
 
-display: flex;
-flex-direction: column;
-max-width: 480px;
-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    gap: 20px;
 
 
 }
@@ -68,64 +68,144 @@ gap: 20px;
 
 .div-banner p {
 
-font-size: 1.5em;
+    font-size: 1.5em;
 
 }
 
 .div-banner h2 {
 
-font-size: 2.5em;
+    font-size: 2.5em;
 
 }
 
 main {
 
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
 
 .inputs {
 
-align-items: center;
-display: flex;
-padding: 50px;
-gap: 100px;
+    align-items: center;
+    display: flex;
+    padding: 50px;
+    gap: 100px;
 
 }
 
 
-.filtro, .pesquisa {
+.filtro,
+.pesquisa {
 
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
 
 }
 
 button {
 
-text-align: center;
-font-size: 0.8em;
-padding: 5px;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
 
 }
 
 
-button, input, select{
+button,
+input,
+select {
 
-height: 30px;
-width: 250px;
+    height: 30px;
+    width: 250px;
 
-background-color: black;
-border-radius: 7px;
-border: 1px solid white;
+    background-color: black;
+    border-radius: 7px;
+    border: 1px solid white;
 
-padding: 5px;
-color: #ffffff;
+    padding: 5px;
+    color: #ffffff;
 
+}
+
+.filmes-series {
+
+    padding: 50px;
+
+}
+
+.filmes-series h2 {
+
+    font-size: 1.5em;
+
+}
+
+.card-container {
+
+    width: 100%;
+    height: auto;
+
+    margin-top: 10px;
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.card {
+
+    height: 180px;
+    width: 120px;
+
+
+    background-image: url("../assets/imgs/eassimqueacaba.webp");
+    background-size: cover;
+
+    margin-right: 10px;
+    border-radius: 7px;
+
+}
+
+footer {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    width: 100%;
+    height: auto;
+
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+}
+
+footer p {
+
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.imgs {
+
+    display: flex;
+
+}
+
+
+img {
+
+    width: 30px;
+
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
